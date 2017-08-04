@@ -50,3 +50,134 @@ body {
     font-size: 25px;
     color: white;
 }
+@media(max-width: 1025px){
+    #info{
+        font-size: 250%;
+        left: 0px;
+        top: 853px;
+    }
+    #name{
+        left: -330px;
+        top: 600px;
+        font-size: 350%;
+    }
+}
+@media(max-width: 769px){
+    #info{
+        font-size: 250%;
+        left: 0px;
+        top: 553px;
+    }
+    #name{
+        left: -227px;
+        top: 450px;
+        font-size: 320%;
+    }
+}
+
+@media(max-width: 569px){
+    #info{
+        font-size: 250%;
+        left: 0px;
+        top: 555px;
+    }
+    #name{
+        left: -177px;
+        top: 450px;
+        font-size: 220%;
+    }
+}
+@media(max-width: 420px){
+    #info{
+        font-size: 170%;
+        left: 0px;
+        top: 343px;
+        color: white;
+        text-decoration: none;
+        margin-bottom: 0px;
+        background: -webkit-linear-gradient( transparent, black);
+        padding: 40px;
+    }
+    #name{
+        left: 0px;
+        top: 30px;
+        background: -webkit-linear-gradient( black, transparent);
+        padding-top: 10px;
+        
+    }
+}
+@media(max-width: 413px){
+    #info{
+        font-size: 170%;
+        left: 0px;
+        top: 339px;
+        color: white;
+        text-decoration: none;
+        margin-bottom: 0px;
+        background: -webkit-linear-gradient( transparent, black);
+        padding: 40px;
+    }
+    #name{
+        left: 0px;
+        top: 30px;
+        background: -webkit-linear-gradient( black, transparent);
+        padding-top: 10px;
+        
+    }
+}
+@media(max-width: 376px){
+    #info{
+        font-size: 170%;
+        left: 0px;
+        top: 260px;
+        color: white;
+        text-decoration: none;
+        margin-bottom: 0px;
+        background: -webkit-linear-gradient( transparent, black);
+        padding: 30px;
+    }
+    #name{
+        left: 0px;
+        top: 30px;
+        background: -webkit-linear-gradient( black, transparent);
+        padding-top: 10px;
+        
+    }
+}
+@media(max-width: 361px){
+    #info{
+        font-size: 160%;
+        left: 0px;
+        top: 249px;
+        color: white;
+        text-decoration: none;
+        margin-bottom: 0px;
+        background: -webkit-linear-gradient( transparent, black);
+        padding: 30px;
+    }
+    #name{
+        left: 0px;
+        top: 30px;
+        background: -webkit-linear-gradient( black, transparent);
+        padding-top: 10px;
+        
+    }
+}
+@media(max-width: 321px){
+    #info{
+        font-size: 130%;
+        left: 0px;
+        top: 251px;
+        color: white;
+        text-decoration: none;
+        margin-bottom: 0px;
+        background: -webkit-linear-gradient( transparent, black);
+    }
+    #name{
+        left: 0px;
+        top: 30px;
+        background: -webkit-linear-gradient( black, transparent);
+        padding-top: 10px;
+        
+    }
+}

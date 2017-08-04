@@ -46,3 +46,112 @@ body {
     margin-top: 90px;
     margin-bottom: 80px; 
 }
+
+@media(max-width: 1025px){
+    #resume{
+        border: 3px solid darkred;
+        width: 1014px;
+        height: 1160px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 90px;
+        margin-bottom: 80px; 
+    }
+}
+@media(max-width: 769px){
+    #resume{
+        border: 3px solid darkred;
+        width: 760px;
+        height: 800px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 90px;
+        margin-bottom: 80px; 
+    }
+}
+@media(max-width: 769px){
+    #resume{
+        border: 3px solid darkred;
+        width: 414px;
+        height: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 90px;
+        margin-bottom: 80px; 
+    }
+}
+@media(max-width: 569px){
+    #resume{
+        border: 3px solid darkred;
+        width: 414px;
+        height: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 90px;
+        margin-bottom: 80px; 
+    }
+}
+@media(max-width: 420px){
+    #resume{
+        border: 3px solid darkred;
+        width: 414px;
+        height: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 90px;
+        margin-bottom: 80px; 
+    }
+}
+@media(max-width: 413px){
+    #resume{
+        border: 3px solid darkred;
+        width: 412px;
+        height: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 90px;
+        margin-bottom: 80px; 
+    }
+}
+@media(max-width: 376px){
+    #resume{
+        border: 3px solid darkred;
+        width: 375px;
+        height: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 90px;
+        margin-bottom: 80px; 
+    }
+}
+@media(max-width: 361px){
+    #resume{
+        border: 3px solid darkred;
+        width: 414px;
+        height: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 90px;
+        margin-bottom: 80px; 
+    }
+}
+@media(max-width: 321px){
+    #resume{
+        border: 3px solid darkred;
+        width: 414px;
+        height: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 90px;
+        margin-bottom: 80px; 
+    }
+}
