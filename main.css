@@ -50,6 +50,18 @@ body {
     font-size: 25px;
     color: white;
 }
+#projects:hover{
+    background-color: darkred;
+}
+#activism:hover{
+    background-color: darkred;
+}
+#resume:hover{
+    background-color: darkred;
+}
+#mail:hover{
+    background-color: darkred;
+}
 @media(max-width: 1025px){
     #info{
         font-size: 250%;

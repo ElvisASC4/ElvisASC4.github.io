@@ -49,7 +49,8 @@ h2{
     text-decoration: underline;
     position: relative;
     bottom: -110px;
-    left: 90px;
+    left: 585px;
+    width: 200px;
 }
 #websitetitle{
     font-size: 350%;
@@ -65,6 +66,8 @@ h2{
     border: 3px solid darkred;
     margin: 0px;
 }
+
+
 #firstwebdesc{
     text-align: center;
     float: right;
@@ -73,30 +76,65 @@ h2{
     bottom: -230px;
     font-size: 30px;
 }
+#home:hover{
+    background-color: darkred;
+}
+#activism:hover{
+    background-color: darkred;
+}
+#resume:hover{
+    background-color: darkred;
+}
+#mail:hover{
+    background-color: darkred;
+}
 @media(max-width: 1025px){
-
+    h2{
+        left: 410px;
+    }
+    #firstwebsitepic{
+        width: 60%;
+        margin: 0 auto;
+        left: 190px;
+    }
+    #firstwebdesc{
+        font-size: 310%;
+        left: -90px;
+        bottom: -170px;
+    }
 }
 @media(max-width: 769px){
-
-}
-@media(max-width: 769px){
-
-}
-@media(max-width: 569px){
-
+    h2{
+        left: 290px;
+    }
+    #firstwebsitepic{
+        width: 80%;
+        margin: 0 auto;
+        left: 80px;
+    }
+    #firstwebdesc{
+        font-size: 310%;
+        left: 2px;
+        bottom: -170px;
+    }
 }
 @media(max-width: 420px){
-
-}
-@media(max-width: 413px){
-
+    #firstwebsitepic{
+        width: 90%;
+        margin: 0 auto;
+        left: 20px;
+    }
+    h2{
+        left: 110px;
+    }
+    #firstwebdesc{
+        font-size: 150%;
+        left: 2px;
+        bottom: -170px;
+    }
 }
 @media(max-width: 376px){
-
-}
-@media(max-width: 361px){
-
-}
-@media(max-width: 321px){
-
+    h2{
+        left: 80px;
+    }
 }

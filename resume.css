@@ -46,11 +46,22 @@ body {
     margin-top: 90px;
     margin-bottom: 80px; 
 }
-
+#home:hover{
+    background-color: darkred;
+}
+#activism:hover{
+    background-color: darkred;
+}
+#projects:hover{
+    background-color: darkred;
+}
+#mail:hover{
+    background-color: darkred;
+}
 @media(max-width: 1025px){
     #resume{
         border: 3px solid darkred;
-        width: 1014px;
+        width: 1024px;
         height: 1160px;
         display: block;
         margin-left: auto;
@@ -58,31 +69,21 @@ body {
         margin-top: 90px;
         margin-bottom: 80px; 
     }
+    
 }
 @media(max-width: 769px){
     #resume{
         border: 3px solid darkred;
-        width: 760px;
+        width: 740px;
         height: 800px;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0;
+        margin-right: 0px;
         margin-top: 90px;
         margin-bottom: 80px; 
     }
 }
-@media(max-width: 769px){
-    #resume{
-        border: 3px solid darkred;
-        width: 414px;
-        height: 600px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 90px;
-        margin-bottom: 80px; 
-    }
-}
+
 @media(max-width: 569px){
     #resume{
         border: 3px solid darkred;
