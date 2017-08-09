@@ -77,30 +77,120 @@ p{
     font-size: 120%;
     text-shadow: 1px 1px black;
 }
-@media(max-width: 1025px){
-
-}
 @media(max-width: 769px){
-
+    #back{
+        border: none;
+        background: none;
+        width: 0px;
+        height: 0px;
+    }
+    .vid{
+        width: 760px;
+        margin: 0;
+        position: relative;
+        left: -380px;;
+    }
+    P{
+        font-size: 200%;
+        text-align: center;
+        width: 760px;
+        margin: 0;
+        display: block;
+        position: relative;
+        left: -380px;
+    }
 }
-@media(max-width: 769px){
 
-}
-@media(max-width: 569px){
-
-}
 @media(max-width: 420px){
-
+    #back{
+        border: none;
+        background: none;
+        width: 0px;
+        height: 0px;
+    }
+    .vid{
+        width: 410px;
+        margin: 0;
+        position: relative;
+        left: -205px;;
+    }
+    P{
+        font-size: 200%;
+        text-align: center;
+        width: 400px;
+        margin: 0;
+        display: block;
+        position: relative;
+        left: -205px;
+    }
 }
-@media(max-width: 413px){
 
-}
 @media(max-width: 376px){
-
+    #back{
+        border: none;
+        background: none;
+        width: 0px;
+        height: 0px;
+    }
+    .vid{
+        width: 370px;
+        margin: 0;
+        position: relative;
+        left: -185px;;
+    }
+    P{
+        font-size: 200%;
+        text-align: center;
+        width: 370px;
+        margin: 0;
+        display: block;
+        position: relative;
+        left: -190px;
+    }
 }
 @media(max-width: 361px){
-
+        #back{
+        border: none;
+        background: none;
+        width: 0px;
+        height: 0px;
+    }
+    .vid{
+        width: 360px;
+        margin: 0;
+        position: relative;
+        left: -180px;;
+    }
+    P{
+        font-size: 200%;
+        text-align: center;
+        width: 360px;
+        margin: 0;
+        display: block;
+        position: relative;
+        left: -180px;
+    }
 }
 @media(max-width: 321px){
-
+    #back{
+        border: none;
+        background: none;
+        width: 0px;
+        height: 0px;
+    }
+    .vid{
+        width: 320px;
+        margin: 0;
+        position: relative;
+        left: -160px;;
+    }
+    P{
+        font-size: 200%;
+        text-align: center;
+        width: 320px;
+        margin: 0;
+        display: block;
+        position: relative;
+        left: -160px;
+    }
 }
