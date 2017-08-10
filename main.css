@@ -41,6 +41,10 @@ body {
     font-size: 25px;
     color: white;
 }
+
+#insta-text {
+    display: none;
+}
 /*github logo*/
 .fa-github{
     background-color: black;
@@ -49,6 +53,9 @@ body {
 #github{
     font-size: 25px;
     color: white;
+}
+#git-text{
+    display: none;
 }
 #projects:hover{
     background-color: darkred;
