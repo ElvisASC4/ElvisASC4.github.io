@@ -66,9 +66,7 @@ body {
 #resume:hover{
     background-color: darkred;
 }
-#mail:hover{
-    background-color: darkred;
-}
+
 @media(max-width: 1025px){
     #info{
         font-size: 250%;
