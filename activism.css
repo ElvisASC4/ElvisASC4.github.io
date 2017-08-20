@@ -194,3 +194,28 @@ p{
         left: -160px;
     }
 }
+
+#resume{
+    margin-left: 15px;
+    margin-right: 15px; 
+    color: white;
+}
+
+#home{
+    margin-left: 15px;
+    margin-right: 15px; 
+    color: white;
+}
+
+#projects{
+    margin-left: 15px;
+    margin-right: 15px; 
+    color: white;
+
+}
+
+#mail{
+    margin-left: 15px;
+    margin-right: 15px; 
+    color: white;
+}

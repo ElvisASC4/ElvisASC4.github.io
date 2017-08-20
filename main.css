@@ -66,6 +66,9 @@ body {
 #resume:hover{
     background-color: darkred;
 }
+#mail:hover{
+    background-color: darkred;
+}
 
 @media(max-width: 1025px){
     #info{
@@ -197,4 +200,28 @@ body {
         padding-top: 10px;
         
     }
+}
+
+#resume{
+    margin-left: 15px;
+    margin-right: 15px; 
+    color: white;
+}
+
+#activism{
+    margin-left: 15px;
+    margin-right: 15px; 
+    color: white;
+}
+
+#projects{
+    margin-left: 15px;
+    margin-right: 15px; 
+    color: white;
+}
+
+#mail{
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white; 
 }
