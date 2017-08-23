@@ -36,6 +36,14 @@ body {
     font-size: 25px;
     color: white;
 }
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+#linkedin{
+    font-size: 27px;
+    color: white;
+}
 h1{
     text-shadow: 1px 1px black;
     text-align: center;

@@ -57,6 +57,14 @@ body {
 #git-text{
     display: none;
 }
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+#linkedin{
+    font-size: 27px;
+    color: white;
+}
 #projects:hover{
     background-color: darkred;
 }

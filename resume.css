@@ -37,6 +37,15 @@ body {
     color: white;
 
 }
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+#linkedin{
+    font-size: 27px;
+    color: white;
+}
 #resumepic{
     border: 3px solid darkred;
     width: 800px;
