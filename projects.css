@@ -214,10 +214,19 @@ h2{
     h2{
         left: 110px;
     }
-    #firstwebdesc{
-        font-size: 150%;
+    hr{
+        display: none;
+    }
+    #pongdesc{
+        font-size: 260%; 
+        left: 5px;
+        bottom: -270px;
+    }
+     #firstwebdesc{
+        font-size: 210%;
         left: 2px;
         bottom: -170px;
+        padding: 10px;
     }
 }
 @media(max-width: 376px){
@@ -228,7 +237,20 @@ h2{
         font-size: 210%;
         left: 0px;
     }
-
+    hr{
+        display: none;
+    }
+    #pongdesc{
+        font-size: 260%; 
+        left: 5px;
+        bottom: -270px;
+    }
+     #firstwebdesc{
+        font-size: 210%;
+        left: 2px;
+        bottom: -170px;
+        padding: 10px;
+    }
 }
 
 hr{
