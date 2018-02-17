@@ -1,7 +1,10 @@
+html{
+    height: 100%;
+}
 body {
     margin-top: 50px;  
     background: url("http://cdn.mysitemyway.com/etc-mysitemyway/backgrounds/legacy-previews/backgrounds/watercolor-grunge/watercolor-grunge-000042-gradient-dark-blue.jpg") no-repeat center center fixed;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
