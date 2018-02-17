@@ -19,7 +19,9 @@
 //         animationClick(this, 'shake');
 //     });
 // });
-    $(document).ready(function() { /* makes learn more about me text appear */
+if( $(window).width() > 1000)
+{
+  $(document).ready(function() { /* makes learn more about me text appear */
       $('#liltext').hide().delay(5000).fadeIn(2200);
       $('#MyCanvasResume').hide().delay(5000).fadeIn(4200);
       $('#MyCanvasProjects').hide().delay(5000).fadeIn(4200);
@@ -27,7 +29,8 @@
       drawResumeArrow();
       drawProjectArrow();
       drawActivismArrow();
-});
+  });
+}
 
 function drawResumeArrow() {
   var canvas = document.getElementById('MyCanvasResume');
