@@ -15,7 +15,7 @@ body {
     bottom: -205px;
     left: -410px;
 }
-@media(min-width: 1300px){
+@media(min-width: 1350px) and (max-width: 1450px){ /* Keeps text and arrows limited to this window*/
     #liltext{ /* learn more about me text*/
         color: white;
         text-shadow: 1px 1px black;
@@ -52,6 +52,19 @@ body {
         /*border:1px solid white;*/
     }
 }
+
+@media(max-width: 1349px){ /* Text and arrows dissapear below 1350px*/
+    .LearnMoreText{
+        visibility: collapse;
+    }
+}
+
+@media(min-width: 1451px){
+    .LearnMoreText{
+        visibility: collapse;
+    }
+}
+
 #name{
     font-size: 250%;
 }
@@ -123,9 +136,6 @@ body {
         left: 0px;
         top: 853px;
     }
-    .LearnMoreText{
-        visibility: collapse;
-    }
     #name{
         left: -330px;
         top: 600px;
@@ -137,9 +147,6 @@ body {
         font-size: 250%;
         left: 0px;
         top: 553px;
-    }
-    .LearnMoreText{
-        visibility: collapse;
     }
     #name{
         left: -227px;
@@ -153,9 +160,6 @@ body {
         font-size: 250%;
         left: 0px;
         top: 555px;
-    }
-    .LearnMoreText{
-        visibility: collapse;
     }
     #name{
         left: -177px;
@@ -173,9 +177,6 @@ body {
         margin-bottom: 0px;
         background: -webkit-linear-gradient( transparent, black);
         padding: 40px;
-    }
-    .LearnMoreText{
-        visibility: collapse;
     }
     #name{
         left: 0px;
@@ -196,9 +197,6 @@ body {
         background: -webkit-linear-gradient( transparent, black);
         padding: 40px;
     }
-    .LearnMoreText{
-        visibility: collapse;
-    }
     #name{
         left: 0px;
         top: 30px;
@@ -217,9 +215,6 @@ body {
         margin-bottom: 0px;
         background: -webkit-linear-gradient( transparent, black);
         padding: 30px;
-    }
-    .LearnMoreText{
-        visibility: collapse;
     }
     #name{
         left: 0px;
@@ -240,9 +235,6 @@ body {
         background: -webkit-linear-gradient( transparent, black);
         padding: 30px;
     }
-    .LearnMoreText{
-        visibility: collapse;
-    }
     #name{
         left: 0px;
         top: 30px;
@@ -260,9 +252,6 @@ body {
         text-decoration: none;
         margin-bottom: 0px;
         background: -webkit-linear-gradient( transparent, black);
-    }
-    .LearnMoreText{
-        visibility: collapse;
     }
     #name{
         left: 0px;
